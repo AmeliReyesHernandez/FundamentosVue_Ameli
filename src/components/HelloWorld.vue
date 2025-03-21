@@ -9,10 +9,12 @@
   <!-- INICO DEL PRIMER -->
    <div class="row">
     <div class="col-md-6">
-      <div class="card">
+      <div class="card" style="width: 18rem;">
         <div class="card-header">
           <h6> Herbivoros </h6>
         </div>
+        <img src="https://cdn0.ecologiaverde.com/es/posts/8/3/6/dinosaurios_herbivoros_nombres_tipos_caracteristicas_e_imagenes_2638_orig.jpg"  
+        class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Los dinosaurios herbívoros fueron los gigantes pacíficos del mundo prehistórico. 
             Estos dinosaurios se alimentaban exclusivamente de plantas y desarrollaron diversas adaptaciones para sobrevivir en entornos ricos en vegetación.</p>
@@ -20,10 +22,12 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card">
+      <div class="card" style="width: 18rem;">
         <div class="card-header">
           <h6> Carnivoros </h6>
         </div>
+        <img src="https://preview.redd.it/between-the-largest-carnivores-of-the-franchise-which-one-v0-n10c388n4z0e1.jpg?width=640&crop=smart&auto=webp&s=07670c20cac8681380a022faab75a56e308ddb9e" 
+        class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Los dinosaurios carnívoros, tenían varias características físicas que los hacían excelentes cazadores. 
             Sus mandíbulas eran poderosas, equipadas con dientes afilados y curvados hacia atrás para desgarrar carne.</p>
