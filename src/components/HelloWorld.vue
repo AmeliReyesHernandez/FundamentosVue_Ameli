@@ -3,37 +3,79 @@
 </script>
 
 <template>
-<!-- estructura html --> 
- <h1>Dino</h1>
- <button class="btn">Dinosaurio</button>
+<!-- estructura html -->
+ <div class="container">
+  <h1 class= "text-center"> DINOSAURIOS </h1>
+  <!-- INICO DEL PRIMER -->
+   <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6> Herbivoros </h6>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Los dinosaurios herbívoros fueron los gigantes pacíficos del mundo prehistórico. 
+            Estos dinosaurios se alimentaban exclusivamente de plantas y desarrollaron diversas adaptaciones para sobrevivir en entornos ricos en vegetación.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6> Carnivoros </h6>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Los dinosaurios carnívoros, tenían varias características físicas que los hacían excelentes cazadores. 
+            Sus mandíbulas eran poderosas, equipadas con dientes afilados y curvados hacia atrás para desgarrar carne.</p>
+        </div>
+      </div>
+    </div>
+   </div>
+ <!-- CIERRE DEL PRIMER ROW -->
+ <!-- INICIO DEL SEGUNDO ROW -->
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFtEz89wdhoD69FzN9wWZoc7-49NRoPTgszA&s" 
+        class="card-img-top" alt="...">
+        <div class="card-body text-center">
+         <p class="card-text">Su anatomía y fisiología estaban adaptadas para su alimentación. 
+          Su dentadura estaba adaptada para cortar y triturar plantas. 
+          Algunos tenían estructuras para cortar hojas, triturar tallos o agujerear madera para sorber sabia. </p>
 
- <img src="https://png.pngtree.com/png-vector/20241226/ourmid/pngtree-baby-dinosaur-cartoon-clipart-fun-and-cute-dino-design-png-image_14906503.png"/>
+         <button class=" btn btn-warning "> Mas Informacion </button> 
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/916955480/es/vector/dinosaurios-para-ni%C3%B1os-cachorros-poco-dibujo-aislados.jpg?s=1024x1024&w=is&k=20&c=Tawn-9Uo2_TmkSRby6bUtdJYZZB_-3cjbjySI-A0Kow=" 
+        class="card-img-top" alt="...">
+        <div class="card-body text-center">
+         <p class="card-text">Ambos tipos de dinosaurios eran arcosaurios, es decir, tenían extremidades que se mantenían erectas por debajo de su cuerpo.</p>
 
-<p>
-  Entre los dinosaurios más icónicos se encuentran el Tyrannosaurus rex, el Triceratops, el Velociraptor, 
-  el Diplodocus y el Braquiosaurio, cada uno con características únicas que continúan fascinando a científicos 
-  y al público en general
-</p>
+         <button class=" btn btn-warning "> Mas Informacion </button> 
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://dinosaurioss.com/wp-content/uploads/2016/11/dinosaurios-carnivoros-600x372.jpg" 
+        class="card-img-top" alt="...">
+        <div class="card-body text-center">
+         <p class="card-text">Tenían dientes y garras afilados
+          Su anatomía estaba adaptada para cazar, matar y consumir a otros animales
+          Eran los depredadores más temidos y poderosos de su época</p>
+
+         <button class=" btn btn-warning "> Mas Informacion </button> 
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- CIERRE DEL SEGUNDO ROW -->
+ </div>
 </template>
 
 <style scoped>
 /*estilos css*/
-h1{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 45px;
-color: brown;
-}
-
-.btn{
-  border-radius: 15px;
-  background-color: #ffff;
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.img{
-  width: 100px;
-  height: 20px;
-}
-
 </style>
